@@ -1,0 +1,767 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1737388320872715, "dur":33064, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737388320905788, "dur":155, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737388320905999, "dur":2319, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737388320908464, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":0, "ts":1737388320910082, "dur":91, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":0, "ts":1737388320911639, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1737388320908358, "dur":4440, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737388320912799, "dur":13335100, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737388334247901, "dur":1543, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737388334249482, "dur":82, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737388334249811, "dur":76, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737388334250458, "dur":1733, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1737388320906870, "dur":5986, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1737388320912866, "dur":4765, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1737388320917631, "dur":13443, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1737388320931074, "dur":3314, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1737388320934433, "dur":67006, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737388320934389, "dur":67053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737388321001515, "dur":11805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737388321013356, "dur":156188, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737388321013323, "dur":156222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737388321169567, "dur":7751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737388321177321, "dur":13070604, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737388320906808, "dur":6004, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737388320919285, "dur":964, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/il2cpp/build/deploy" }}
+,{ "pid":12345, "tid":2, "ts":1737388320920250, "dur":8400, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/il2cpp/libil2cpp" }}
+,{ "pid":12345, "tid":2, "ts":1737388320928650, "dur":126, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport" }}
+,{ "pid":12345, "tid":2, "ts":1737388320928777, "dur":1441, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono" }}
+,{ "pid":12345, "tid":2, "ts":1737388320930218, "dur":115, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources" }}
+,{ "pid":12345, "tid":2, "ts":1737388320930334, "dur":156, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/Tools/BuildPipeline" }}
+,{ "pid":12345, "tid":2, "ts":1737388320930490, "dur":259, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Library/PlayerDataCache/Win642/Data" }}
+,{ "pid":12345, "tid":2, "ts":1737388320912824, "dur":18120, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737388320931128, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteResponseFile Library/Bee/artifacts/rsp/15270836920601169063.rsp" }}
+,{ "pid":12345, "tid":2, "ts":1737388320931215, "dur":1245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker E:/ZombieDefense/ZombieDefensePrototype/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":2, "ts":1737388320932460, "dur":858, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737388320934422, "dur":77709, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737388321012263, "dur":247759, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737388321260025, "dur":83412, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737388321343573, "dur":148382, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\ZombieDefense\\ZombieDefensePrototype\\Library\\PackageCache\\com.unity.burst\\.Runtime\\bcl.exe" }}
+,{ "pid":12345, "tid":2, "ts":1737388320934393, "dur":557565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":2, "ts":1737388321492644, "dur":12754980, "ph":"X", "name": "GenerateNativePluginsForAssemblies",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":3, "ts":1737388320906879, "dur":5988, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737388320917578, "dur":4808, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.33f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Security.Cryptography.Cng.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737388320912878, "dur":9508, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737388320922387, "dur":8733, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737388320931121, "dur":3832, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737388320935010, "dur":69497, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737388320934964, "dur":69546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737388321004570, "dur":9498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737388321014099, "dur":148843, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737388321014071, "dur":148872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737388321162963, "dur":1651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737388321164615, "dur":13083455, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737388320906816, "dur":6008, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737388320912839, "dur":3971, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737388320916810, "dur":14232, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737388320931076, "dur":3309, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737388320934435, "dur":66041, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737388320934387, "dur":66091, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737388321001452, "dur":7839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737388321009317, "dur":94501, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737388321009296, "dur":94524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737388321103849, "dur":2492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737388321106344, "dur":13141743, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737388320906856, "dur":5986, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737388320914224, "dur":523, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.33f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Bee.BuildLogic.EmbeddedLinux.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737388320917416, "dur":4577, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.33f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Xml.XPath.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737388320912853, "dur":9285, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737388320922138, "dur":8993, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737388320931132, "dur":3735, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737388320934922, "dur":77431, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737388320934877, "dur":77477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737388321012374, "dur":18366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737388321030798, "dur":231504, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737388321030744, "dur":231560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737388321262324, "dur":2299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737388321264626, "dur":12983328, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737388320906932, "dur":5961, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737388320912903, "dur":4578, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737388320917482, "dur":13563, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737388320931046, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1737388320931175, "dur":3616, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737388320934846, "dur":177747, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737388320934803, "dur":177792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737388321112616, "dur":5218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737388321117839, "dur":13130102, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737388320906918, "dur":5963, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737388320917186, "dur":4432, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.33f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Resources.Writer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737388320912892, "dur":8727, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737388320921619, "dur":9471, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737388320931091, "dur":4054, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737388320935190, "dur":138276, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737388320935154, "dur":138314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737388321073498, "dur":13814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737388321087339, "dur":75854, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737388321087318, "dur":75877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737388321163248, "dur":1411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737388321164662, "dur":13083427, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737388320907781, "dur":5349, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737388320913141, "dur":4793, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737388320917935, "dur":13181, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737388320931117, "dur":3849, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737388320935014, "dur":76061, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737388320934976, "dur":76100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737388321011104, "dur":19629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737388321030801, "dur":312545, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737388321030735, "dur":312612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737388321343372, "dur":2967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737388321346343, "dur":12901777, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737388320907024, "dur":5898, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737388320912932, "dur":4670, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737388320917603, "dur":13451, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737388320931099, "dur":4001, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737388320935142, "dur":89565, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737388320935108, "dur":89602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737388321024738, "dur":10052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737388321034827, "dur":60096, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737388321034793, "dur":60132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737388321094995, "dur":2081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737388321097100, "dur":116579, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737388321097080, "dur":116601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737388321213706, "dur":1592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737388321215301, "dur":13032708, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1737388320907063, "dur":5871, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1737388320917228, "dur":4504, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.33f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Diagnostics.DiagnosticSource.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737388320912944, "dur":9040, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1737388320921985, "dur":9110, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1737388320931095, "dur":4015, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1737388320935158, "dur":70645, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737388320935118, "dur":70688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737388321005869, "dur":7856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737388321013757, "dur":97895, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737388321013729, "dur":97926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737388321111712, "dur":4434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737388321116150, "dur":13131743, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1737388320907098, "dur":5849, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1737388320912956, "dur":4693, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1737388320917649, "dur":13413, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1737388320931159, "dur":3657, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1737388320934865, "dur":88203, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737388320934827, "dur":88244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737388321023107, "dur":10563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737388321033706, "dur":116426, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737388321033674, "dur":116461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737388321150166, "dur":1761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737388321151931, "dur":13095954, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737388320907141, "dur":5817, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737388320916935, "dur":2799, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.33f1\\Editor\\Data\\il2cpp\\build\\deploy\\Microsoft.Bcl.HashCode.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737388320912970, "dur":6824, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737388320919794, "dur":11316, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737388320931111, "dur":3892, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737388320935053, "dur":69454, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737388320935014, "dur":69496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737388321004575, "dur":17484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737388321022094, "dur":74191, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737388321022064, "dur":74224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737388321096320, "dur":1956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737388321098401, "dur":51774, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737388321098278, "dur":51899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737388321150203, "dur":1730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737388321151936, "dur":13095986, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737388320907200, "dur":5771, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737388320917530, "dur":2773, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.33f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Toolchain.UWP.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737388320912981, "dur":7322, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737388320920304, "dur":10776, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737388320931080, "dur":4115, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737388320935270, "dur":86432, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737388320935205, "dur":86500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737388321021730, "dur":12005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737388321033763, "dur":121461, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737388321033739, "dur":121488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737388321155262, "dur":3553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737388321158819, "dur":13089310, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737388320907242, "dur":5739, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737388320917445, "dur":3064, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.33f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.BinLog.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737388320912991, "dur":7649, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737388320920641, "dur":10446, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737388320931087, "dur":4070, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737388320935205, "dur":77279, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737388320935166, "dur":77320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737388321012518, "dur":20420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737388321032976, "dur":187438, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737388321032945, "dur":187472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737388321220441, "dur":1247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737388321221690, "dur":13026212, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737388320907294, "dur":5698, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737388320913002, "dur":3867, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737388320916870, "dur":14216, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737388320931086, "dur":4083, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737388320935222, "dur":74622, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1737388320935179, "dur":74667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1737388321009862, "dur":17458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1737388321027390, "dur":179762, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1737388321027323, "dur":179831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1737388321207185, "dur":3637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1737388321210826, "dur":13037225, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1737388320907316, "dur":5689, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1737388320913018, "dur":4592, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1737388320917611, "dur":13446, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1737388320931129, "dur":3751, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1737388320934951, "dur":95338, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1737388320934890, "dur":95402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1737388321030321, "dur":5606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1737388321035959, "dur":91762, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1737388321035933, "dur":91791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1737388321127759, "dur":2075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1737388321129838, "dur":13118133, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1737388320907367, "dur":5652, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1737388320914266, "dur":547, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.33f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\mscorlib.dll" }}
+,{ "pid":12345, "tid":17, "ts":1737388320913028, "dur":4796, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1737388320917825, "dur":13258, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1737388320931084, "dur":4098, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1737388320935284, "dur":76562, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1737388320935191, "dur":76657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1737388321011877, "dur":18972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1737388321030856, "dur":229162, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Mono.Security.dll" }}
+,{ "pid":12345, "tid":17, "ts":1737388321030853, "dur":229167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":17, "ts":1737388321260046, "dur":1452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":17, "ts":1737388321261501, "dur":12986522, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1737388320907407, "dur":5623, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1737388320917256, "dur":4396, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.33f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Web.Extensions.dll" }}
+,{ "pid":12345, "tid":18, "ts":1737388320913040, "dur":8731, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1737388320921771, "dur":9338, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1737388320931109, "dur":3909, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1737388320935115, "dur":85524, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":18, "ts":1737388320935031, "dur":85611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":18, "ts":1737388321020677, "dur":12312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":18, "ts":1737388321033016, "dur":250825, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Xml.dll" }}
+,{ "pid":12345, "tid":18, "ts":1737388321032992, "dur":250851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":18, "ts":1737388321283866, "dur":2316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":18, "ts":1737388321286184, "dur":12961832, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1737388320908349, "dur":4949, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1737388320913299, "dur":17647, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1737388320930961, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":19, "ts":1737388320931060, "dur":1088, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":19, "ts":1737388320932216, "dur":2183, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1737388320934464, "dur":86727, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1737388320934413, "dur":86781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1737388321021219, "dur":11218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1737388321032482, "dur":52085, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Runtime.dll" }}
+,{ "pid":12345, "tid":19, "ts":1737388321032441, "dur":52129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":19, "ts":1737388321084601, "dur":4962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":19, "ts":1737388321089599, "dur":86945, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1737388321089568, "dur":86978, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1737388321176579, "dur":2744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1737388321179327, "dur":13068661, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1737388320908403, "dur":4913, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1737388320913317, "dur":17632, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1737388320931092, "dur":4041, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1737388320935179, "dur":75551, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1737388320935142, "dur":75590, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1737388321028854, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1737388321010745, "dur":18180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1737388321028954, "dur":86382, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\netstandard.dll" }}
+,{ "pid":12345, "tid":20, "ts":1737388321028930, "dur":86408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":20, "ts":1737388321115373, "dur":3210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":20, "ts":1737388321118587, "dur":13129515, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1737388320907566, "dur":5504, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1737388320917467, "dur":4544, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.33f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Core.dll" }}
+,{ "pid":12345, "tid":21, "ts":1737388320913081, "dur":9008, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1737388320922089, "dur":9037, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1737388320931126, "dur":3780, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1737388320934972, "dur":108666, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1737388320934915, "dur":108726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1737388321043682, "dur":7936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1737388321051679, "dur":69587, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1737388321051624, "dur":69645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1737388321121293, "dur":7087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1737388321128384, "dur":13119742, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1737388320907597, "dur":5485, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1737388320917412, "dur":4554, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.33f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Mono.Messaging.dll" }}
+,{ "pid":12345, "tid":22, "ts":1737388320913091, "dur":9016, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1737388320922108, "dur":9024, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1737388320931133, "dur":3721, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1737388320934910, "dur":76712, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1737388320934863, "dur":76761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1737388321011651, "dur":21591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1737388321033300, "dur":89464, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1737388321033248, "dur":89519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1737388321123007, "dur":6839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1737388321129848, "dur":13118089, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1737388320907631, "dur":5461, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1737388320917484, "dur":4556, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.33f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\IBM.Data.DB2.dll" }}
+,{ "pid":12345, "tid":23, "ts":1737388320922041, "dur":1408, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.33f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\I18N.dll" }}
+,{ "pid":12345, "tid":23, "ts":1737388320913102, "dur":10423, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1737388320923525, "dur":7582, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1737388320931107, "dur":3938, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1737388320935354, "dur":123552, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1737388320935054, "dur":123853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1737388321058925, "dur":25743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1737388321084703, "dur":129440, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":23, "ts":1737388321084672, "dur":129473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":23, "ts":1737388321214197, "dur":1369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":23, "ts":1737388321215568, "dur":13032549, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1737388320907676, "dur":5428, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1737388320917512, "dur":4543, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.33f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\System.Threading.Thread.dll" }}
+,{ "pid":12345, "tid":24, "ts":1737388320913115, "dur":9072, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1737388320922188, "dur":8957, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1737388320931146, "dur":3682, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1737388320934876, "dur":86073, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1737388320934838, "dur":86113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1737388321020985, "dur":11281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1737388321032293, "dur":215001, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Drawing.dll" }}
+,{ "pid":12345, "tid":24, "ts":1737388321032270, "dur":215026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":24, "ts":1737388321247321, "dur":2820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":24, "ts":1737388321250142, "dur":12997792, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1737388320908646, "dur":4764, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1737388320913411, "dur":17562, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1737388320930975, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":25, "ts":1737388320931231, "dur":3498, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1737388320934774, "dur":134797, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":25, "ts":1737388320934738, "dur":134836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":25, "ts":1737388321069611, "dur":17505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":25, "ts":1737388321087162, "dur":75023, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":25, "ts":1737388321087121, "dur":75066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":25, "ts":1737388321162211, "dur":1532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":25, "ts":1737388321163745, "dur":13084316, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1737388320906985, "dur":5921, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1737388320917297, "dur":4619, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.33f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Memory.dll" }}
+,{ "pid":12345, "tid":26, "ts":1737388320912921, "dur":9082, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1737388320922003, "dur":9094, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1737388320931097, "dur":4024, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1737388320935201, "dur":124843, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":26, "ts":1737388320935130, "dur":124916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":26, "ts":1737388321070732, "dur":251, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1737388321060068, "dur":10924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":26, "ts":1737388321071017, "dur":64972, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":26, "ts":1737388321070994, "dur":64998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":26, "ts":1737388321136021, "dur":1821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":26, "ts":1737388321137845, "dur":13110204, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1737388320907843, "dur":5300, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1737388320913152, "dur":4345, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1737388320917498, "dur":13552, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1737388320931129, "dur":113, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":27, "ts":1737388320931244, "dur":3460, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1737388320934758, "dur":74818, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":27, "ts":1737388320934715, "dur":74863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":27, "ts":1737388321009623, "dur":16662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":27, "ts":1737388321026317, "dur":118625, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Numerics.dll" }}
+,{ "pid":12345, "tid":27, "ts":1737388321026290, "dur":118655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":27, "ts":1737388321144969, "dur":1769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":27, "ts":1737388321146740, "dur":13101287, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1737388320907885, "dur":5269, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1737388320917341, "dur":4574, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.33f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\System.Net.Cache.dll" }}
+,{ "pid":12345, "tid":28, "ts":1737388320913164, "dur":8952, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1737388320922116, "dur":9011, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1737388320931128, "dur":3765, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1737388320935003, "dur":166868, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":28, "ts":1737388320934903, "dur":166972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":28, "ts":1737388321101901, "dur":3549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":28, "ts":1737388321105454, "dur":13142422, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":29, "ts":1737388320907942, "dur":5225, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":29, "ts":1737388320917364, "dur":4571, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.33f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\System.Globalization.Calendars.dll" }}
+,{ "pid":12345, "tid":29, "ts":1737388320913179, "dur":8888, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":29, "ts":1737388320922067, "dur":9033, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":29, "ts":1737388320931101, "dur":3987, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":29, "ts":1737388320935150, "dur":66476, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":29, "ts":1737388320935097, "dur":66532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":29, "ts":1737388321001653, "dur":8289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":29, "ts":1737388321009971, "dur":150148, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Universal.2D.Runtime.dll" }}
+,{ "pid":12345, "tid":29, "ts":1737388321009945, "dur":150177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll" }}
+,{ "pid":12345, "tid":29, "ts":1737388321160148, "dur":1612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll" }}
+,{ "pid":12345, "tid":29, "ts":1737388321161762, "dur":13086315, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":30, "ts":1737388320907976, "dur":5205, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":30, "ts":1737388320917637, "dur":7579, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.33f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\System.Collections.dll" }}
+,{ "pid":12345, "tid":30, "ts":1737388320913191, "dur":12095, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":30, "ts":1737388320925287, "dur":5825, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":30, "ts":1737388320931113, "dur":3877, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":30, "ts":1737388320935043, "dur":74695, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":30, "ts":1737388320935001, "dur":74739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":30, "ts":1737388321009772, "dur":16605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":30, "ts":1737388321026460, "dur":195427, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Security.dll" }}
+,{ "pid":12345, "tid":30, "ts":1737388321026381, "dur":195508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":30, "ts":1737388321221906, "dur":1327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":30, "ts":1737388321223235, "dur":13024872, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1737388320908025, "dur":5168, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1737388320913203, "dur":2770, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1737388320915973, "dur":15080, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1737388320931105, "dur":68, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":31, "ts":1737388320931174, "dur":3631, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1737388320934851, "dur":181238, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":31, "ts":1737388320934814, "dur":181277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":31, "ts":1737388321116109, "dur":2503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":31, "ts":1737388321118614, "dur":13129495, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1737388320908046, "dur":5159, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1737388320913215, "dur":983, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1737388320914199, "dur":16865, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1737388320931139, "dur":78, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":32, "ts":1737388320931218, "dur":3523, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1737388320934790, "dur":122493, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":32, "ts":1737388320934751, "dur":122536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":32, "ts":1737388321069921, "dur":863, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1737388321057325, "dur":13479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":32, "ts":1737388321070850, "dur":160538, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Rendering.LightTransport.Runtime.dll" }}
+,{ "pid":12345, "tid":32, "ts":1737388321070809, "dur":160580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/Unity.Rendering.LightTransport.Runtime.dll" }}
+,{ "pid":12345, "tid":32, "ts":1737388321231405, "dur":1003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/Unity.Rendering.LightTransport.Runtime.dll" }}
+,{ "pid":12345, "tid":32, "ts":1737388321232409, "dur":13015521, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":33, "ts":1737388320908089, "dur":5133, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":33, "ts":1737388320917654, "dur":2056, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.33f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":33, "ts":1737388320913236, "dur":6718, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":33, "ts":1737388320919955, "dur":11121, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":33, "ts":1737388320931077, "dur":4131, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":33, "ts":1737388320935285, "dur":122543, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":33, "ts":1737388320935209, "dur":122622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":33, "ts":1737388321057864, "dur":16363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":33, "ts":1737388321074255, "dur":46938, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":33, "ts":1737388321074231, "dur":46965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":33, "ts":1737388321121237, "dur":7675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":33, "ts":1737388321128929, "dur":13119171, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":34, "ts":1737388320908165, "dur":5073, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":34, "ts":1737388320917569, "dur":5829, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.33f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":34, "ts":1737388320913246, "dur":10152, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":34, "ts":1737388320923399, "dur":7726, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":34, "ts":1737388320931125, "dur":3796, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":34, "ts":1737388320935005, "dur":70879, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":34, "ts":1737388320934933, "dur":70954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":34, "ts":1737388321005912, "dur":17741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":34, "ts":1737388321023730, "dur":11112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":34, "ts":1737388321034874, "dur":135728, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":34, "ts":1737388321034847, "dur":135758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":34, "ts":1737388321170634, "dur":8465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":34, "ts":1737388321179101, "dur":13069047, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":35, "ts":1737388320908206, "dur":5044, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":35, "ts":1737388320917553, "dur":2766, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.33f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":35, "ts":1737388320913262, "dur":7185, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":35, "ts":1737388320920448, "dur":10655, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":35, "ts":1737388320931104, "dur":3953, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":35, "ts":1737388320935147, "dur":69239, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":35, "ts":1737388320935068, "dur":69320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":35, "ts":1737388321004419, "dur":16984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":35, "ts":1737388321021448, "dur":101294, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Transactions.dll" }}
+,{ "pid":12345, "tid":35, "ts":1737388321021408, "dur":101337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":35, "ts":1737388321122964, "dur":6864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":35, "ts":1737388321129832, "dur":13118306, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":36, "ts":1737388320908240, "dur":5024, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":36, "ts":1737388320913271, "dur":3144, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":36, "ts":1737388320916415, "dur":14624, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":36, "ts":1737388320931073, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":36, "ts":1737388320931248, "dur":52, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles iphone/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":36, "ts":1737388320931301, "dur":3282, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":36, "ts":1737388320934627, "dur":65870, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":36, "ts":1737388320934594, "dur":65907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":36, "ts":1737388321001412, "dur":9259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":36, "ts":1737388321010722, "dur":217462, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":36, "ts":1737388321010676, "dur":217510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":36, "ts":1737388321228210, "dur":1438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":36, "ts":1737388321229651, "dur":13018403, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":37, "ts":1737388320909220, "dur":4423, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":37, "ts":1737388320913644, "dur":17388, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":37, "ts":1737388320931039, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/D3D12/D3D12Core.dll" }}
+,{ "pid":12345, "tid":37, "ts":1737388320931272, "dur":112, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles iphone/D3D12/D3D12Core.dll" }}
+,{ "pid":12345, "tid":37, "ts":1737388320931385, "dur":3073, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":37, "ts":1737388320934532, "dur":242361, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":37, "ts":1737388320934468, "dur":242427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":37, "ts":1737388321176913, "dur":2464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":37, "ts":1737388321179380, "dur":13068716, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":38, "ts":1737388320908300, "dur":4984, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":38, "ts":1737388320913284, "dur":17667, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":38, "ts":1737388320930961, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":38, "ts":1737388320931251, "dur":83, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles iphone/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":38, "ts":1737388320931335, "dur":3209, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":38, "ts":1737388320934579, "dur":215797, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":38, "ts":1737388320934555, "dur":215824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":38, "ts":1737388321150407, "dur":1891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":38, "ts":1737388321152301, "dur":13095588, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":39, "ts":1737388320907457, "dur":5585, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":39, "ts":1737388320917136, "dur":2228, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.33f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Reflection.Context.dll" }}
+,{ "pid":12345, "tid":39, "ts":1737388320913052, "dur":6413, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":39, "ts":1737388320919466, "dur":11656, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":39, "ts":1737388320931122, "dur":3813, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":39, "ts":1737388320935006, "dur":74746, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":39, "ts":1737388320934948, "dur":74806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":39, "ts":1737388321009783, "dur":16468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":39, "ts":1737388321026275, "dur":128303, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":39, "ts":1737388321026256, "dur":128324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":39, "ts":1737388321154594, "dur":3290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":39, "ts":1737388321157890, "dur":13090062, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":40, "ts":1737388320907505, "dur":5549, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":40, "ts":1737388320913068, "dur":4370, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":40, "ts":1737388320917439, "dur":13663, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":40, "ts":1737388320931103, "dur":3968, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":40, "ts":1737388320935431, "dur":146247, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":40, "ts":1737388320935086, "dur":146595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":40, "ts":1737388321081714, "dur":8273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":40, "ts":1737388321090033, "dur":58374, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":40, "ts":1737388321089990, "dur":58420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":40, "ts":1737388321148463, "dur":1478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":40, "ts":1737388321149945, "dur":13098067, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":41, "ts":1737388320908442, "dur":4892, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":41, "ts":1737388320913335, "dur":17625, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":41, "ts":1737388320930969, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":41, "ts":1737388320931131, "dur":71, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles iphone/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":41, "ts":1737388320931203, "dur":3550, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":41, "ts":1737388320934799, "dur":67971, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":41, "ts":1737388320934762, "dur":68010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":41, "ts":1737388321002795, "dur":11263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":41, "ts":1737388321014097, "dur":63035, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AMDModule.dll" }}
+,{ "pid":12345, "tid":41, "ts":1737388321014061, "dur":63073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.AMDModule.dll" }}
+,{ "pid":12345, "tid":41, "ts":1737388321077197, "dur":10082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.AMDModule.dll" }}
+,{ "pid":12345, "tid":41, "ts":1737388321087305, "dur":65360, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":41, "ts":1737388321087283, "dur":65384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":41, "ts":1737388321152716, "dur":1757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":41, "ts":1737388321154476, "dur":13093525, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":42, "ts":1737388320908473, "dur":4878, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":42, "ts":1737388320913352, "dur":17619, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":42, "ts":1737388320930987, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":42, "ts":1737388320931175, "dur":59, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles iphone/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":42, "ts":1737388320931235, "dur":3482, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":42, "ts":1737388320934767, "dur":110454, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":42, "ts":1737388320934726, "dur":110497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":42, "ts":1737388321045265, "dur":6017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":42, "ts":1737388321051349, "dur":98378, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":42, "ts":1737388321051286, "dur":98444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":42, "ts":1737388321149761, "dur":1892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":42, "ts":1737388321151656, "dur":13096376, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":43, "ts":1737388320908503, "dur":4864, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":43, "ts":1737388320913368, "dur":17746, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":43, "ts":1737388320931115, "dur":3864, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":43, "ts":1737388320935019, "dur":210813, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":43, "ts":1737388320934988, "dur":210846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":43, "ts":1737388321145855, "dur":2601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":43, "ts":1737388321148459, "dur":13099503, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":44, "ts":1737388320908545, "dur":4836, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":44, "ts":1737388320913382, "dur":17585, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":44, "ts":1737388320930983, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":44, "ts":1737388320931181, "dur":3597, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":44, "ts":1737388320934829, "dur":73752, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":44, "ts":1737388320934787, "dur":73796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":44, "ts":1737388321008616, "dur":18378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":44, "ts":1737388321027083, "dur":194773, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Data.dll" }}
+,{ "pid":12345, "tid":44, "ts":1737388321027001, "dur":194857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":44, "ts":1737388321221878, "dur":2206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":44, "ts":1737388321224086, "dur":13023947, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":45, "ts":1737388320908601, "dur":4793, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":45, "ts":1737388320913394, "dur":17591, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":45, "ts":1737388320930993, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":45, "ts":1737388320931191, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":45, "ts":1737388320931290, "dur":3308, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":45, "ts":1737388320934661, "dur":65126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":45, "ts":1737388320934618, "dur":65171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":45, "ts":1737388321001432, "dur":7959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":45, "ts":1737388321009429, "dur":92267, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":45, "ts":1737388321009397, "dur":92301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":45, "ts":1737388321101731, "dur":2855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":45, "ts":1737388321104590, "dur":13143290, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":46, "ts":1737388320907747, "dur":5368, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":46, "ts":1737388320917567, "dur":4810, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.33f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\System.Security.Cryptography.RSA.dll" }}
+,{ "pid":12345, "tid":46, "ts":1737388320913125, "dur":9317, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":46, "ts":1737388320922442, "dur":8514, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":46, "ts":1737388320930961, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":46, "ts":1737388320931197, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":46, "ts":1737388320931291, "dur":124, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles iphone/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":46, "ts":1737388320931416, "dur":2998, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":46, "ts":1737388320934469, "dur":225830, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":46, "ts":1737388320934426, "dur":225875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":46, "ts":1737388321160319, "dur":2716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":46, "ts":1737388321163040, "dur":13084834, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":47, "ts":1737388320908697, "dur":4735, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":47, "ts":1737388320913433, "dur":17543, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":47, "ts":1737388320930992, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":47, "ts":1737388320931188, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":47, "ts":1737388320931252, "dur":3437, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":47, "ts":1737388320934754, "dur":67059, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":47, "ts":1737388320934700, "dur":67116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":47, "ts":1737388321001845, "dur":11219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":47, "ts":1737388321013088, "dur":116308, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":47, "ts":1737388321013068, "dur":116330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":47, "ts":1737388321129423, "dur":1606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":47, "ts":1737388321131031, "dur":13116911, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":48, "ts":1737388320908737, "dur":4710, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":48, "ts":1737388320913448, "dur":17576, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":48, "ts":1737388320931025, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype.exe" }}
+,{ "pid":12345, "tid":48, "ts":1737388320931195, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":48, "ts":1737388320931278, "dur":3349, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":48, "ts":1737388320934665, "dur":72306, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":48, "ts":1737388320934637, "dur":72336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":48, "ts":1737388321006995, "dur":15397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":48, "ts":1737388321022429, "dur":114145, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Net.Http.dll" }}
+,{ "pid":12345, "tid":48, "ts":1737388321022398, "dur":114178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":48, "ts":1737388321136637, "dur":1902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":48, "ts":1737388321138542, "dur":13109541, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":49, "ts":1737388320908769, "dur":4696, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":49, "ts":1737388320913466, "dur":17536, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":49, "ts":1737388320931027, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":49, "ts":1737388320931327, "dur":3230, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":49, "ts":1737388320934594, "dur":69862, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":49, "ts":1737388320934568, "dur":69890, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":49, "ts":1737388321004487, "dur":9567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":49, "ts":1737388321014083, "dur":44163, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":49, "ts":1737388321014058, "dur":44191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":49, "ts":1737388321070626, "dur":184, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":49, "ts":1737388321058279, "dur":12569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":49, "ts":1737388321070885, "dur":81719, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":49, "ts":1737388321070853, "dur":81754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":49, "ts":1737388321152639, "dur":1292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":49, "ts":1737388321153933, "dur":13093973, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":50, "ts":1737388320908799, "dur":4681, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":50, "ts":1737388320913481, "dur":17502, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":50, "ts":1737388320931017, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":50, "ts":1737388320931348, "dur":3165, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":50, "ts":1737388320934553, "dur":118127, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":50, "ts":1737388320934524, "dur":118158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":50, "ts":1737388321052709, "dur":1623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":50, "ts":1737388321054357, "dur":57415, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":50, "ts":1737388321054337, "dur":57436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":50, "ts":1737388321111784, "dur":4013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":50, "ts":1737388321115801, "dur":13132107, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":51, "ts":1737388320908830, "dur":4663, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":51, "ts":1737388320913493, "dur":17496, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":51, "ts":1737388320930990, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":51, "ts":1737388320931189, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":51, "ts":1737388320931256, "dur":3422, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":51, "ts":1737388320934719, "dur":202428, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Configuration.dll" }}
+,{ "pid":12345, "tid":51, "ts":1737388320934686, "dur":202464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":51, "ts":1737388321137183, "dur":1973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":51, "ts":1737388321139160, "dur":13108844, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":52, "ts":1737388320908869, "dur":4637, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":52, "ts":1737388320913507, "dur":17509, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":52, "ts":1737388320931059, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":52, "ts":1737388320931324, "dur":3244, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":52, "ts":1737388320934623, "dur":86899, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":52, "ts":1737388320934578, "dur":86947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":52, "ts":1737388321021550, "dur":12401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":52, "ts":1737388321033994, "dur":67859, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":52, "ts":1737388321033953, "dur":67903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":52, "ts":1737388321101887, "dur":2801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":52, "ts":1737388321104692, "dur":13143222, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":53, "ts":1737388320908934, "dur":4589, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":53, "ts":1737388320913523, "dur":17471, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":53, "ts":1737388320930997, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":53, "ts":1737388320931281, "dur":117, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles iphone/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":53, "ts":1737388320931399, "dur":3046, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":53, "ts":1737388320934500, "dur":124699, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":53, "ts":1737388320934455, "dur":124746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":53, "ts":1737388321059211, "dur":733, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":53, "ts":1737388321059949, "dur":12212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":53, "ts":1737388321072190, "dur":64997, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":53, "ts":1737388321072166, "dur":65024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":53, "ts":1737388321137214, "dur":1931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":53, "ts":1737388321139149, "dur":13108915, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":54, "ts":1737388320908965, "dur":4575, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":54, "ts":1737388320913540, "dur":17601, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":54, "ts":1737388320931141, "dur":3700, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":54, "ts":1737388320934894, "dur":160321, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":54, "ts":1737388320934852, "dur":160365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":54, "ts":1737388321095240, "dur":2506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":54, "ts":1737388321097774, "dur":132404, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.GPUDriven.Runtime.dll" }}
+,{ "pid":12345, "tid":54, "ts":1737388321097750, "dur":132429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll" }}
+,{ "pid":12345, "tid":54, "ts":1737388321230204, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll" }}
+,{ "pid":12345, "tid":54, "ts":1737388321231298, "dur":13016744, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":55, "ts":1737388320909005, "dur":4551, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":55, "ts":1737388320913556, "dur":17453, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":55, "ts":1737388320931011, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":55, "ts":1737388320931349, "dur":3149, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":55, "ts":1737388320934554, "dur":68117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":55, "ts":1737388320934511, "dur":68162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":55, "ts":1737388321002712, "dur":10860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":55, "ts":1737388321013599, "dur":107871, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":55, "ts":1737388321013577, "dur":107895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":55, "ts":1737388321121505, "dur":6468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":55, "ts":1737388321127977, "dur":13120136, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":56, "ts":1737388320909045, "dur":4526, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":56, "ts":1737388320913573, "dur":17425, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":56, "ts":1737388320930999, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":56, "ts":1737388320931184, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":56, "ts":1737388320931248, "dur":104, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles iphone/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":56, "ts":1737388320931353, "dur":3130, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":56, "ts":1737388320934553, "dur":112938, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":56, "ts":1737388320934493, "dur":113000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":56, "ts":1737388321047519, "dur":1493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":56, "ts":1737388321049051, "dur":40271, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":56, "ts":1737388321049016, "dur":40309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":56, "ts":1737388321089358, "dur":4052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":56, "ts":1737388321093444, "dur":49690, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":56, "ts":1737388321093416, "dur":49720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":56, "ts":1737388321143172, "dur":1650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":56, "ts":1737388321144825, "dur":13103178, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":57, "ts":1737388320909080, "dur":4508, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":57, "ts":1737388320913588, "dur":17433, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":57, "ts":1737388320931030, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":57, "ts":1737388320931363, "dur":3108, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":57, "ts":1737388320934547, "dur":208760, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":57, "ts":1737388320934480, "dur":208828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":57, "ts":1737388321143321, "dur":2208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":57, "ts":1737388321145533, "dur":13102423, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":58, "ts":1737388320909112, "dur":4490, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":58, "ts":1737388320913603, "dur":17401, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":58, "ts":1737388320931006, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":58, "ts":1737388320931192, "dur":3573, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":58, "ts":1737388320934817, "dur":75612, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Core.Runtime.Shared.dll" }}
+,{ "pid":12345, "tid":58, "ts":1737388320934775, "dur":75656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll" }}
+,{ "pid":12345, "tid":58, "ts":1737388321010452, "dur":17481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll" }}
+,{ "pid":12345, "tid":58, "ts":1737388321027977, "dur":55290, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.dll" }}
+,{ "pid":12345, "tid":58, "ts":1737388321027939, "dur":55331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":58, "ts":1737388321083300, "dur":7019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":58, "ts":1737388321090346, "dur":81620, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":58, "ts":1737388321090324, "dur":81644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":58, "ts":1737388321172001, "dur":7898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":58, "ts":1737388321179902, "dur":13067994, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":59, "ts":1737388320909144, "dur":4474, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":59, "ts":1737388320913618, "dur":17389, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":59, "ts":1737388320931031, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":59, "ts":1737388320931288, "dur":55, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles iphone/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":59, "ts":1737388320931344, "dur":3184, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":59, "ts":1737388320934577, "dur":105048, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":59, "ts":1737388320934542, "dur":105086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":59, "ts":1737388321039662, "dur":1760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":59, "ts":1737388321041448, "dur":131053, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":59, "ts":1737388321041428, "dur":131074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":59, "ts":1737388321172544, "dur":6964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":59, "ts":1737388321179510, "dur":13068624, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":60, "ts":1737388320909177, "dur":4454, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":60, "ts":1737388320913631, "dur":17396, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":60, "ts":1737388320931037, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":60, "ts":1737388320931268, "dur":3387, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":60, "ts":1737388320934706, "dur":103722, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":60, "ts":1737388320934664, "dur":103767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":60, "ts":1737388321038496, "dur":1476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":60, "ts":1737388321039997, "dur":91708, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":60, "ts":1737388321039976, "dur":91731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":60, "ts":1737388321131730, "dur":1155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":60, "ts":1737388321132886, "dur":13115074, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":61, "ts":1737388320908267, "dur":5008, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":61, "ts":1737388320913283, "dur":68, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":61, "ts":1737388320913352, "dur":17611, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":61, "ts":1737388320930964, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":61, "ts":1737388320931267, "dur":3399, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":61, "ts":1737388320934699, "dur":77405, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":61, "ts":1737388320934674, "dur":77432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":61, "ts":1737388321012128, "dur":19824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":61, "ts":1737388321032001, "dur":135016, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":61, "ts":1737388321031958, "dur":135060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":61, "ts":1737388321167036, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":61, "ts":1737388321168038, "dur":13080038, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":62, "ts":1737388320909259, "dur":4398, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":62, "ts":1737388320913657, "dur":17410, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":62, "ts":1737388320931108, "dur":3925, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":62, "ts":1737388320935085, "dur":76265, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":62, "ts":1737388320935043, "dur":76309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":62, "ts":1737388321011374, "dur":19340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":62, "ts":1737388321030794, "dur":161053, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":62, "ts":1737388321030718, "dur":161130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":62, "ts":1737388321191868, "dur":1324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":62, "ts":1737388321193195, "dur":13054843, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":63, "ts":1737388320909307, "dur":4359, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":63, "ts":1737388320913667, "dur":17347, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":63, "ts":1737388320931035, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":63, "ts":1737388320931352, "dur":56, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles iphone/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":63, "ts":1737388320931409, "dur":3022, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":63, "ts":1737388320934481, "dur":111415, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":63, "ts":1737388320934443, "dur":111455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":63, "ts":1737388321045946, "dur":1404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":63, "ts":1737388321047407, "dur":118965, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":63, "ts":1737388321047354, "dur":119020, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":63, "ts":1737388321166390, "dur":1089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":63, "ts":1737388321167481, "dur":13080466, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":64, "ts":1737388320909327, "dur":4349, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":64, "ts":1737388320913676, "dur":17359, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":64, "ts":1737388320931037, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":64, "ts":1737388320931273, "dur":3367, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":64, "ts":1737388320934682, "dur":229472, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":64, "ts":1737388320934652, "dur":229505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles iphone/ZombieDefensePrototype_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":64, "ts":1737388321164188, "dur":1768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"iphone/ZombieDefensePrototype_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":64, "ts":1737388321165957, "dur":13081954, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737388334255720, "dur":1486, "ph":"X", "name": "ProfilerWriteOutput" }
+,
